@@ -1,0 +1,181 @@
+body{
+    background-color: black;
+}
+p{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+.container .wrapper{
+    align-items: center;
+    padding: 0 50px;
+}
+.container .title{
+    text-align: center;
+    padding: 50px 40px;
+    margin: 0 auto;
+}
+.title p{
+    color: #b7b7b7;    
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+    text-transform: uppercase;
+    font-size: larger;
+    margin: 4px 0 0 0;
+}
+.page-title a{
+    text-decoration: none;
+    font-weight: 100;
+    font-family: "Playfair Display",serif;
+    font-size: 60px;
+    color: #b7b7b7;
+}
+.page-title a:hover{
+    color: #db4f3d;
+    transition: color 0.3s ease-in-out;
+}
+
+.container .menu{
+    border-top: 1px solid #2f2f2f;
+    padding: 20px;
+}
+.nav-menu .primary-menu{
+    display: flex;
+    justify-content: center;
+}
+.primary-menu .menu-item{
+    list-style: none;
+    text-decoration:none ;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    font-family: "roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 30px 30px;
+}
+.menu a:hover{
+    color: #db4f3d;
+    transition: color 0.3s ease-in-out;
+}
+.menu .current{
+    color: #db4f3d;
+    border-top: 1px solid #db4f3d;
+}
+.header-media img{
+    position: relative;
+    width: 100%;
+}
+.container .content .product-info{
+    padding: 0 250px;
+    margin-top: 200px;
+}
+.container .content .product-info p{
+    column-gap: 0px;
+    text-align: center;
+    color: #999;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6em;
+    letter-spacing: -0.8px;
+}
+.product-info .secondary{
+    margin: 40px 0;
+}
+.content .display-image{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.content .display-image img{
+    height: 650px;
+    max-width: 100%;
+}
+
+.content .logo-container{
+    display: flex;
+    justify-content: center;
+}
+.logo-container .wrapper-grid{
+    display: flex;
+    gap: 150px;
+}
+.wrapper-grid img{
+    border-radius: 50%;
+}
+
+.content .blank{
+    padding: 140px;
+}
+
+.container footer{
+    padding: 40px;
+}
+.page-footer .site-info{
+    display: flex;
+    justify-content: center;
+}
+.site-info .wrapper{
+    font-family: "roboto", 'Sans-serif';
+    font-size: 18px;
+    color: #7A7A7A;
+}
+.site-info .wrapper a{
+    text-decoration: none;
+    color: white;
+}
+.site-info .wrapper a:hover{
+    text-decoration: underline;
+    color: #db4f3d;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    bottom: 35px;
+    height: 40px;
+    line-height: 24px;
+    outline: none;
+    padding: 5px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+    border-radius: 50%;
+  background-color: #db4f3d;
+}
+.material-symbols-outlined:hover{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: black;
+    bottom: 35px;
+    height: 40px;
+    line-height: 24px;
+    outline: none;
+    padding: 5px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+    border-radius: 50%;
+  background-color: white;
+  transition: color 0.3s ease-in-out;
+}
